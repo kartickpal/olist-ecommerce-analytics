@@ -70,3 +70,17 @@ SELECT
     COUNT(seller_state) AS sellers_with_state,
     COUNT(*) - COUNT(seller_state) AS missing_states
 FROM sellers;
+
+-- 11. Check missing customer IDs
+SELECT
+    COUNT(*) AS total_customers,
+    COUNT(customer_id) AS customers_with_id,
+    COUNT(*) - COUNT(customer_id) AS missing_customer_ids
+FROM customers;
+
+-- 12. Check duplicate customer IDs
+SELECT
+    COUNT(*) AS total_customer_rows,
+    COUNT(DISTINCT customer_id) AS unique_customer_ids,
+    COUNT(*) - COUNT(DISTINCT customer_id) AS duplicate_rows
+FROM customers;
