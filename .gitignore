@@ -1,0 +1,18 @@
+# Power BI temporary/backup files
+*.pbit
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
