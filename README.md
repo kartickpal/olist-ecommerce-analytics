@@ -265,5 +265,6 @@ It reflects practical skills applicable to entry-level **Data Analyst, Business 
 ## 👤 Author
 
 **Kartick Pal**
+
 B.Tech — Computer Science & Engineering
 GitHub: [github.com/kartickpal](https://github.com/kartickpal)
